@@ -5,9 +5,11 @@ import Image from "next/image";
 import mpin from '../public/mpin.jpg';
 import design from '../public/design.png';
 import code from '../public/code.png';
-import web1 from '../public/web1.png';
-import hermanos from '../public/hermanos.png';
+import doktorpc from '../public/doktorpc.png';
+import hermanos from '../public/hermanoss.png';
 import { useState } from "react";
+import { CiMail } from "react-icons/ci";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -42,7 +44,7 @@ export default function Home() {
             <div className="p-10 text-center">
               <h2 className="text-5xl font-medium text-teal-600 md:text-6xl dark:text-teal-400">Arvin Hendro</h2>
               <h3 className="py-2 text-2xl md:text-3xl dark:text-white">Web And App Developer</h3>
-              
+
             </div>
             <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-300">
               {/* LinkedIn */}
@@ -82,44 +84,26 @@ export default function Home() {
             <div>
               <h3 className="py-1 text-3xl dark:text-white">Hello!</h3>
               <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-300">
-              My name is Arvin Hendro. I am a Junior Programmer with a strong interest in web and application development.
+                My name is Arvin Hendro. I am a Junior Programmer and undergraduate of Information Technology at Brawijaya University. I am passionate about designing and developing functional, visually appealing digital solutions while continuously learning and growing in this ever-evolving field. I enjoy exploring new knowledge and technologies to stay ahead in my profession. Additionally, I thrive in collaborative environments, adapt easily to new challenges, and enjoy contributing as a team player.
               </p>
-              <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-300">
-              I am passionate about creating functional and visually appealing digital solutions while constantly learning and growing in this ever-evolving field. Additionally, I am a team player who thrives in collaborative environments and can easily adapt to new challenges and work settings.
-              </p>
+
             </div>
             <div className="gap-10 lg:flex">
-              <div className="justify-center p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gray-800">
-                <div className="flex justify-center">
-                  <Image src={design} width={100} height={100} alt="Design Image" />
-                </div>
-                <h3 className="pt-8 pb-2 text-lg font-medium dark:text-white">Beautiful Design</h3>
+              <div className="justify-center p-5 my-5 text-center shadow-lg rounded-xl dark:bg-gray-800">
+                <h3 className="pb-2 text-lg font-medium dark:text-white">My Code Language</h3>
                 <p className="py-2 dark:text-gray-300">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam odit, illum aliquam, pariatur vero corrupti autem nostrum ea voluptatum tempora libero, laborum rem esse obcaecati eos at incidunt voluptatem.
+                  I have been learning these programming languages and tools throughout my two years of college. During this time, I have gained foundational knowledge and hands-on experience in web and application development.
                 </p>
-                <h4 className="py-4 text-teal-600 dark:text-teal-400">Design tools I used</h4>
-                <p className="py-1 text-gray-800 dark:text-gray-300">Figma</p>
-                <p className="py-1 text-gray-800 dark:text-gray-300">Figma</p>
-              </div>
-              <div className="justify-center p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gray-800">
-                <div className="flex justify-center">
-                  <Image src={code} width={100} height={100} alt="Design Image" />
-                </div>
-                <h3 className="pt-8 pb-2 text-lg font-medium dark:text-white">My Code Language</h3>
-                <p className="py-2 dark:text-gray-300">
-                I have been learning these programming languages and tools throughout my two years of college. During this time, I have gained foundational knowledge and hands-on experience in web and application development.
-                </p>
-                <h4 className="py-4 text-teal-600 dark:text-teal-400">Programming Tools</h4>
-                <div className="gap-2 text-center lg:flex">
-                  <p className="py-1 text-gray-800 dark:text-gray-300">React</p>
-                  <p className="py-1 text-gray-800 dark:text-gray-300">Next.js</p>
+                <h4 className="py-2 text-teal-600 dark:text-teal-400">Programming Language</h4>
+                <div className="justify-center gap-3 text-center lg:flex">
                   <p className="py-1 text-gray-800 dark:text-gray-300">Java</p>
                   <p className="py-1 text-gray-800 dark:text-gray-300">PHP</p>
                   <p className="py-1 text-gray-800 dark:text-gray-300">HTML</p>
                   <p className="py-1 text-gray-800 dark:text-gray-300">CSS</p>
-                  <p className="py-1 text-gray-800 dark:text-gray-300">Laravel</p>
                   <p className="py-1 text-gray-800 dark:text-gray-300">MySQL</p>
-                  
+                  <p className="py-1 text-gray-800 dark:text-gray-300">Android Studio</p>
+                  <p className="py-1 text-gray-800 dark:text-gray-300">Javascript</p>
+
                 </div>
               </div>
             </div>
@@ -129,12 +113,33 @@ export default function Home() {
             <div className="flex flex-col items-center text-center">
               <h3 className="py-4 text-3xl dark:text-white">Projects</h3>
               <div className="flex flex-wrap justify-center gap-4 py-2">
-                <Image className="py-1" src={hermanos} height={400} width={400} />
-                <Image className="py-1" src={web1} height={400} width={400} />
+                <div className="justify-center p-5 my-5 text-center shadow-lg rounded-xl dark:bg-gray-800">
+                  <Image className="py-1" src={hermanos} height={400} width={400} />
+                </div>
+                <div className="justify-center p-5 my-5 text-center shadow-lg rounded-xl dark:bg-gray-800">
+                  <Image className="py-1" src={doktorpc} height={400} width={400} />
+                </div>
+
               </div>
             </div>
           </section>
-
+          <section>
+            <div className="flex flex-col items-center text-center">
+              <h3 className="py-4 text-3xl text-gray-800 dark:text-white">Contact Me</h3>
+              <div className="flex flex-wrap justify-center gap-4 py-2">
+                <div className="flex flex-col items-center p-5 my-5 text-center bg-white shadow-lg rounded-xl dark:bg-gray-800 sm:flex-row sm:justify-center">
+                  <div className="flex items-center gap-2">
+                    <CiMail className="text-4xl text-gray-800 dark:text-white" />
+                    <p className="text-gray-600 dark:text-gray-300">arvin.hendro145@gmail.com</p>
+                  </div>
+                  <div className="flex items-center gap-2 mt-4 sm:mt-0 sm:ml-4">
+                    <FaWhatsapp className="text-4xl text-gray-800 dark:text-white" />
+                    <p className="text-gray-600 dark:text-gray-300">082114582355</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </main>
       </div>
     </>
