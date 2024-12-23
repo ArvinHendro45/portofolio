@@ -118,6 +118,8 @@ export default function Home() {
                   <p className="py-1 text-gray-800 dark:text-gray-300">HTML</p>
                   <p className="py-1 text-gray-800 dark:text-gray-300">CSS</p>
                   <p className="py-1 text-gray-800 dark:text-gray-300">Laravel</p>
+                  <p className="py-1 text-gray-800 dark:text-gray-300">MySQL</p>
+                  
                 </div>
               </div>
             </div>
