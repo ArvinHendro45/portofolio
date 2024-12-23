@@ -34,7 +34,7 @@ export default function Home() {
                 <li>
                   <a
                     className="px-4 py-2 text-white rounded-md bg-gradient-to-r from-cyan-500 to-teal-400"
-                    href="#"
+                    target="_blank" href="https://drive.google.com/file/d/1fj8DqtcSENrW0Gyga4zY8ivlhbLURhwL/view?usp=sharing"
                   >
                     Resume
                   </a>
@@ -115,9 +115,21 @@ export default function Home() {
               <div className="flex flex-wrap justify-center gap-4 py-2">
                 <div className="justify-center p-5 my-5 text-center shadow-lg rounded-xl dark:bg-gray-800">
                   <Image className="py-1" src={hermanos} height={400} width={400} />
+                  <a
+                    className="px-4 py-2 text-white rounded-md bg-gradient-to-r from-cyan-500 to-teal-400"
+                    target="_blank" href="https://github.com/FiqriAulia/project-papb-2024"
+                  >
+                    Github
+                  </a>
                 </div>
                 <div className="justify-center p-5 my-5 text-center shadow-lg rounded-xl dark:bg-gray-800">
-                  <Image className="py-1" src={doktorpc} height={400} width={400} />
+                  <Image className="py-1 " src={doktorpc} height={400} width={400}/>
+                  <a
+                    className="px-4 py-2 text-white rounded-md bg-gradient-to-r from-cyan-500 to-teal-400"
+                    target="_blank" href="https://github.com/NaufalArsa/DoctorPC"
+                  >
+                    Github
+                  </a>
                 </div>
 
               </div>
