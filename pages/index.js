@@ -2,9 +2,8 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import Image from "next/image";
-import mpin from '../public/mpin.jpg';
-import design from '../public/design.png';
-import code from '../public/code.png';
+import mpin from '../public/mpiin.jpg';
+
 import doktorpc from '../public/doktorpc.png';
 import hermanos from '../public/hermanoss.png';
 import { useState } from "react";
